@@ -5,7 +5,7 @@ I'm planning to go to Montreal, QC, Canada.
 
 ## Contact
 
-:email: [kim.yeojoy@gmail.com](kim.yeojoy@gmail.com)
+:email: [kim.yeojoy@gmail.com](mailto:kim.yeojoy@gmail.com)
 
 :octocat: [https://github.com/yeojoy](https://github.com/yeojoy)
 
