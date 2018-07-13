@@ -1,6 +1,12 @@
-## yeojoy
+# yeojoy
+
 ## Contact
+
+### email
 kim.yeojoy@gmail.com
+
+### skype
+yeojoy
 
 <!--
 ## Welcome to GitHub Pages
