@@ -1,10 +1,12 @@
-# yeojoy
+# [yeojoy](http://yeojoy.me)
+I'm an Android Application Developer since 2011. 
+I'm planning to go to Montreal, QC, Canada.
 
 ## Contact
 
 _EMAIL_  kim.yeojoy@gmail.com
 
-_GITHUB_ https://github.com/yeojoy
+_GITHUB_ [https://github.com/yeojoy](https://github.com/yeojoy)
 
 
 <!--
