@@ -2,7 +2,10 @@
 
 ## Contact
 
-_E_  kim.yeojoy@gmail.com
+_EMAIL_  kim.yeojoy@gmail.com
+
+_GITHUB_ https://github.com/yeojoy
+
 
 <!--
 ## Welcome to GitHub Pages
