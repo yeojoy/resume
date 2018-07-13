@@ -1,5 +1,6 @@
-# [yeojoy](http://yeojoy.me)
-I'm an Android Application Developer since 2011. 
+# yeojoy
+I'm Yeojong Kim, an Android Application Developer since 2011.
+
 I'm planning to go to Montreal, QC, Canada.
 
 ## Contact
