@@ -2,7 +2,7 @@
 
 ## Contact
 
-~E~  kim.yeojoy@gmail.com
+_E_  kim.yeojoy@gmail.com
 
 <!--
 ## Welcome to GitHub Pages
