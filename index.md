@@ -1,8 +1,6 @@
 # yeojoy
 I'm Yeojong Kim, an Android Application Developer since 2010.
 
-I'm planning to go to Montreal, QC, Canada.
-
 ## Contact
 
 :email: [kim.yeojoy@gmail.com](mailto:kim.yeojoy@gmail.com)
