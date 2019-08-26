@@ -24,7 +24,7 @@ I'm Yeojong Kim, an Android Application Developer since 2010.
 
 :octocat: [https://github.com/yeojoy](https://github.com/yeojoy)
 
-linkedin [http://linked.in/kim.yeojoy](http://linked.in/kim.yeojoy)
+linkedin [https://www.linkedin.com/in/kim-yeojoy/](https://www.linkedin.com/in/kim-yeojoy/)
 
 
 <!--
