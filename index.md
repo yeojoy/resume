@@ -3,7 +3,7 @@ I'm Yeojong Kim, an Android Application Developer since 2010.
 
 ## Project
 ### [Ulthera](https://play.google.com/store/apps/details?id=kr.co.ulthera.ulthera)
-- 2018.12 ~ 2019.01
+- 2018.10 ~ 2019.01
 - Managing beauty treatment for customer and hospital.
 
 ### [Amanda - 아만다("아"무나 "만"나지 않는"다")](https://play.google.com/store/apps/details?id=com.dorsia.amanda)
