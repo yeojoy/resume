@@ -11,7 +11,7 @@ I'm Yeojong Kim, an Android Application Developer since 2010.
 - Date application like Tinder
 - Main Android Developer
 
-### 그 외
+### etc
 - Heybeauty - 헤이뷰티(Realtime booking service between customers and beauty shops) 2015.09 ~ 2016.05
 - Healthon(Tranking user's health state) 2013.11 ~ 2014.06
 - mHidoc(Looking for hospitals and doctors) 2013.06 ~ 2013.11
