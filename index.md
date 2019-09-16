@@ -13,8 +13,8 @@ I'm Yeojong Kim, an Android Application Developer since 2010.
 
 ### etc
 - Heybeauty - 헤이뷰티(Realtime booking service between customers and beauty shops) 2015.09 ~ 2016.05
-- Healthon(Tranking user's health state) 2013.11 ~ 2014.06
-- mHidoc(Looking for hospitals and doctors) 2013.06 ~ 2013.11
+- [Healthon](https://play.google.com/store/apps/details?id=com.healthon.wellness)(Tranking user's health state) 2013.11 ~ 2014.06
+- [Hidoc](https://play.google.com/store/apps/details?id=com.appgate.hidoc)(Looking for hospitals and doctors) 2013.06 ~ 2013.11
 - Imin - 아임in(Location based Social Network Service) 2012.03 ~ 2013.03
 - Imin Hotspot - 아임in 핫스팟(Showing a list of the most popular restaurants) 2011.02 ~ 2011.06
 
