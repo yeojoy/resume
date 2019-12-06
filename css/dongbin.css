@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Alatsi|Nanum+Gothic|Open+Sans&display=swap');
+
+/* font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Alatsi', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+h1, h2, h3, h4, .navbar-brand {
+    font-family: 'Alatsi', sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFFFFF
+}
+
+.navbar {
+    border-bottom: #616161 3px solid;
+}
+
+.bg-light-gray {
+    background-color: #EFEFEF;
+}
+
+.svg-icon {
+    width: 24px;
+    height: 24px;
+}
