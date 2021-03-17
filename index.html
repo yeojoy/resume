@@ -1,164 +1,234 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>
             Yeojong Kim
         </title>
-        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- add Bootstrap css -->
-        <link rel="stylesheet" href="./css/bootstrap.min.css">
-        <!-- add custom css -->
-        <link rel="stylesheet" href="./css/dongbin.css">
+        
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
         
     </head>
     <body>
         <div id="home"/>
         <!-- Navigation bar -->
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed">
-            <div class="container">
-                <a href="index.html" class="navbar-brand">yeojoy</a>
-                <!-- hamburger menu button -->
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#navCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- add items in hamburger menu -->
-                <div class="collapse navbar-collapse" id="navCollapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="#home" class="nav-link">Main</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#career" class="nav-link">Career</a>
-                        <li class="nav-item">
-                            <a href="#games" class="nav-link">Games</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#contact" class="nav-link">Contact me</a>
-                        </li>
-                    </ul>
-                </div>
+
+        <nav class="navbar navbar-expand-lg bg-primary navbar-dark fixed-top" id="sideNav">
+
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Yeojong Kim</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/yeojong.jpg" alt="" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                </ul>
             </div>
         </nav>
 
-        <!-- Main section -->
-        <section class="container mt-5">
-            <div class="text-center mb-10">
-                <!-- <img src="./img/yeojong.JPG" class="img-fluid mb-3 rounded-circle" style="width: 480px;"> -->
-                <h1>Yeojong Kim</h1>
-                <h5>I’m an Android Application Developer since 2010.</h5>
-                <p>I enjoy to work with other developers, designers to improve applications.</p>
-                <!-- <img src="./img/android.svg" class="img-fluid svg-icon mr-2">Android App Developer
-                <img src="./img/git-pull-request.svg" class="img-fluid svg-icon mr-2">Good co-worker
-                <img src="./img/trending-up.svg" class="img-fluid svg-icon mr-2">Share knowledge -->
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- about section -->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Yeojong
+                        <span class="text-primary">Kim</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        2525 Boulevard Cavendish · Montréal · Québec · (514) 977-6763 ·
+                        <a href="mailto:kim.yeojoy@gmail.com">kim.yeojoy@gmail.com</a>
+                    </div>
+                    <!-- <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p> -->
+                    <p class="lead mb-5">I’m an Android application developer since 2010. I enjoy to work with other developers, designers to improve applications.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/kim-yeojoy"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/yeojoy"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://www.youtube.com/c/YeojongKim"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+            </section>
+            <hr class="m-0" />
+            <!-- Career(Experience) Section-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Android application developer</h3>
+                            <div class="subheading mb-3">Dakia Digital</div>
+                            <p>
+                                <ul>
+                                    <li>Initialize the application and design the architect</li>
+                                    <li>Integrate 3rd party apis to login and sign up</li>
+                                    <li>Add admob for ads.</li>
+                                    <li>Use Kotlin and MVP patterns.</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">April 2020 - June 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Android application developer</h3>
+                            <div class="subheading mb-3">Seeso</div>
+                            <h4><a href="https://play.google.com/store/apps/details?id=kr.co.ulthera.ulthera">Ulthera</a></h4>
+                            <p>
+                                <ul>
+                                    <li>Managing beauty treatment for customer and hospital</li>
+                                    <li>For users, verify items to consume by recognizing QR code</li>
+                                    <li>For doctors, manage user's information</li>
+                                    <li>Release app at google play store</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Octover 2018 - January 2019</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Android application developer</h3>
+                            <div class="subheading mb-3">Nextmatch</div>
+                            <h4><a href="https://play.google.com/store/apps/details?id=com.dorsia.amanda">Amanda(아만다)</a></h4>
+                            <p>
+                                <ul>
+                                    <li>Local date application like Tinder</li>
+                                    <li>Modify existing application to correct errors and to improve UX.</li>
+                                    <li>Adjust analytics tools like adbrix, firebase, facebook</li>
+                                    <li>Upgrade billing library and add subscriptions. Adapt the application to new Android Version</li>
+                                    <li>Release app at google play store</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">May 2016 - March 2018</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Android application developer</h3>
+                            <div class="subheading mb-3">The Ventures</div>
+                            <h4>Heybeauty</h4>
+                            <p>
+                                <ul>
+                                    <li>Real-time reservation service between customers and beauty shops</li>
+                                    <li>Made 2 applications for customers and the beauty shops</li>
+                                    <li>Release app at google play store</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2015 - May 2016</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0"><a href="https://www.linkedin.com/in/kim-yeojoy">Learn more</a></h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education Section -->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Jeju National University</h3>
+                            <div class="subheading mb-3">Bachelor of Engineering</div>
+                            <div>Engineering Computer Engineering</div>
+                            <p>GPA: 3.79</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">March 2002 - Feb 2011</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills section -->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="row">
+                        <div class="col-6 subheading mb-3">
+                            <h3>Programming Languages</h3>
+                            <ul>
+                                <li>Jave</li>
+                                <li>Kotlin</li>
+                                <li>Javascript</li>
+                                <li>Html</li>
+                                <li>Python</li>
+                                <li>C#</li>
+                            </ul>
+                        </div>
+                        <div class="col-6 subheading mb-3">
+                            <h3>Tools</h3>
+                            <ul>
+                                <li>Android Studio</li>
+                                <li>Git</li>
+                                <li>Jenkins</li>
+                                <li>Zeplin</li>
+                                <li>Unity</li>
+                                <li>Jira</li>
+                            </ul>
+                        </div>
+                    </div>
 
-            </div>
-            <div class="row mt-10">
-                <div class="col-md-2"></div>
-                <div class="col-md-5">
-                    <h3>Skills</h3>
-                    <ul>
-                        <li>Java</li>
-                        <li>kotlin</li>
-                        <li>python</li>
-                        <li>javascript</li>
-                        <li>html</li>
-                        <li>css</li>
-                        <li>Unity</li>
-                        <li>C# (for Unity)</li>
+                    <div class="subheading mb-3">Workflow</div>
+                    <p>In every morning, I took a small meeting to share issues and progress</p>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Architect the application with MVP or something else
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Make layout with ConstraintLayout
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Connect to Activity, Fragment(View) and then connect to Logic(Presenter)
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Test the result
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Agile Development & Scrum
+                        </li>
                     </ul>
                 </div>
-                <div class="col-md-5">
-                    <h3>Tools</h3>
-                    <ul>
-                        <li>git</li>
-                        <li>jenkins</li>
-                        <li>slack</li>
-                        <li>jira</li>
-                        <li>confluence</li>
-                        <li>zeplin</li>
-                    </ul>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    
+                    <h2 class="mb-5">Interests</h2>
+                    <p>Apart from being an android application developer, I enjoy taking some videos for my children. And I edit them with Final cut pro X, finally I upload it to Youtube.</p>
+                    <p class="mb-0">I'm in Montreal and my family is studying French to live here. I want to help my children to learn it. I've started to make games with Unity. My goal is that my children learns French with my games!</p>
+                    <!-- <p>Apart from being an android application developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
+                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p> -->
                 </div>
-            </div>
-        </section>
-
-        <!-- Career section -->
-        <section id="career" class="bg-light-gray text-dark mt-5 mb-3 pt-5 pb-4">
-            <div class="text-center">
-                <div class="container text-left mb-5" style="max-width: 640px;">
-                    <h1>Career</h1>
-                    <br/>
-                    <h4><a href="https://www.dakiadigital.com/">At DakiaDigital</a></h4>
-                    <ul>
-                        <li>April 2020 ~ June 2020</li>
-                        <li>Make a pilot music application</li>
-                        <li>Leading android application part</li>
-                        <li>Add admob module to show up ads</li>
-                        <li>Add 3rd party libraries for example, LoginRadius to sign up and login</li>
-                    </ul>
-                    <h4><a href="https://play.google.com/store/apps/details?id=kr.co.ulthera.ulthera">Ulthera</a></h4>
-                    <ul>
-                        <li>Octover 2018 ~ January 2019</li>
-                        <li>For managing beauty treatment between customer and hospital</li>
-                        <li>Verify user's items by recognizing QR code</li>
-                    </ul>
-                    <h4><a href="https://play.google.com/store/apps/details?id=com.dorsia.amanda">Amanda - 아만다("아"무나 "만"나지 않는"다")</a></h4>
-                    <ul>
-                        <li>May 2016 ~ March 2018</li>
-                        <li>Main Android Developer</li>
-                        <li>Date application like Tinder</li>
-                        <li>Add subscriptions</li>
-                        <li>Add tracking tools like google analytics, firebase, Appsflyer and so on.
-                    </ul>
-                    <h4>etc</h4>
-                    <ul>
-                        <li>Heybeauty - 헤이뷰티(Realtime booking service between customers and beauty shops) : September 2015 ~ May 2016</li>
-                        <li><a href="https://play.google.com/store/apps/details?id=com.healthon.wellness">Healthon</a>(Tranking user’s health state) : November 2013 ~ June 2014</li>
-                        <li><a href="https://play.google.com/store/apps/details?id=com.appgate.hidoc">Hidoc</a>(Looking for hospitals and doctors) : June 2013 ~ November 2013</li>
-                        <li>Imin - 아임in(Location based Social Network Service) : March 2012 ~ March 2013</li>
-                        <li>Imin Hotspot - 아임in 핫스팟(Showing a list of the most popular restaurants) : February 2011 ~ June 2011</li>
-                    </ul>
-                </div> 
-            </div>
-        </section>
-
-        <section id="games" class="bg-white mt-5 mb-3 pt-5 pb-4">
-            <div class="text-center">
-                <div class="container text-left mb-5" style="max-width: 640px;">
-                    <h1>Games with Unity</h1>
-                    <br/>
-                    <h4><a href="https://www.yeojoy.me/BrickBreaker">Brick Breaker</a></h4>
-                    <ul>
-                        <li>It's a classic video game, Brick breaker with Unity webgl.</li>
-                        <li>It's has 4 levels that are built with my kids' names</li>
-                    </ul>
-                    <h4><a href="https://www.yeojoy.me/NumberWizard">Number Wizard</a></h4>
-                    <ul>
-                        <li>The first game with Unity.</li>
-                        <li>If you think a number between 1 and 1000</li>
-                        <li>He will guess it and get it.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact me section -->
-        <section id="contact" class="bg-light-gray mt-5 mb-3 pt-5 pb-4">
-            <div class="text-center">
-                <div class="container text-left mb-5" style="max-width: 640px;">
-                    <h1>Contact me</h1>
-                    <br/>
-                    <ul>
-                        <li><img src="./img/gmail.svg" class="img-fluid svg-icon mt-10 mr-2"><a href="mailto:kim.yeojoy@gmail.com">kim.yeojoy@gmail.com</a></li>
-                        <li><img src="./img/linkedin.svg" class="img-fluid svg-icon mt-10 mr-2"><a href="https://www.linkedin.com/in/kim-yeojoy">https://www.linkedin.com/in/kim-yeojoy</a></li>
-                        <li><img src="./img/github.svg" class="img-fluid svg-icon mt-10 mr-2"><a href="https://github.com/yeojoy">https://github.com/yeojoy</a></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <!-- add js libraries. bootstrap, jquery, popper -->
-        <script src="./js/jquery-3.4.1.min.js"></script>
-        <script src="./js/popper.min.js"></script>
-        <script src="./js/bootstrap.min.js"></script>
+            </section>
+        </div>
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
     </body>
 </html>
