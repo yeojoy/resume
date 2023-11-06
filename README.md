@@ -1,3 +1,3 @@
-# yeojoy.github.io
+# yeojoy.github.io/resume
 
-https://yeojoy.github.io
+https://www.yeojoy.me/resume
